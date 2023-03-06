@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: orange;
+        }
+        h1{
+            font-weight: bold;
+            text-align: center;
+            color: green;
+        }
+        .all{
+            align-content: center;
+            border-radius: 1px;
+            padding: 10px;
+            margin-left: 20%;
+            margin-right: 18%;
+            background-color: wheat;
+        }
+    </style>
+</head>
+<body>
+    <h1>Herald College Kathmandu Survey Form</h1>
+    <form action="/action_page.php">
+     <div class="all">
+        <div class="name"> <label for="name"> Name:</label>
+     <br>
+        <input placeholder="Enter your name here" style="width: 50%;">
+        </div>
+        <br>
+        <div class="email">
+        <label for="Email">Email:</label>
+        <br>
+        <input placeholder="Example@gmail.com" style="width: 50%;">
+        </div>
+        <br>
+        <div class="age">
+        <label for="age">age</label>
+        <br>
+        <input placeholder="Enter your age" style="width: 50%;">
+        </div>
+        <br> 
+        <div class="option">   
+        <label for="option">Which option describes you the best</label>
+        <br>
+    
+    <select>
+        <option>Student
+        </option>
+        <option>Teacher</option>
+        <option>Parents</option>
+    </select>
+    </div>
+    <br>
+    <div class="recommend">
+    <label for="recommend">Would you recommend Herald College Kathmandu to your friends and family?</label>
+    <br>
+    <input type="checkbox">Yes
+    <br>
+    <input type="checkbox">No
+    <br>
+    <input type="checkbox">Maybe
+    </div>
+    <br>    
+    <div class="language">
+    <label>Languages and frameworks known (Check all that apply)</label>
+    <br>
+    <input type="checkbox">C
+    <br>
+    <input type="checkbox">C++
+    <br>
+    <input type="checkbox">C#
+    <br>
+    <input type="checkbox">Java
+    <br>
+    <input type="checkbox">Python
+    <br>
+    <input type="checkbox">Javascript
+    <br>
+    <input type="checkbox">React
+    <br>
+    <input type="checkbox">Angular
+    <br>
+    <input type="checkbox">Django
+    <br>
+    <input type="checkbox">Spring
+    </div>
+    <br>
+    <div class="feedback">
+    <label>Any Comments or Suggestions</label>
+    <br>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div class="submit">
+    <button type="submit">submit</button>
+    </div>
+    </div>    
+    </form>
+
+</body>
+</html>
